@@ -6,7 +6,5 @@
 
   "remoteUser": "codespace",
   "overrideCommand": false,
-  "postCreateCommand": [
-    "pip install todo-or-not && todoignore-util -p .gitignore && todoignore-util -u .git"
-  ]
+  "postCreateCommand": "pip install todo-or-not && todoignore-util -p .gitignore && todoignore-util -u .git"
 }
