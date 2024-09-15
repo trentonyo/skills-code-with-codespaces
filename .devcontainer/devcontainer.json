@@ -1,0 +1,12 @@
+{
+  // Name this configuration
+  "name": "Codespace for Skills!",
+  // Use the base codespace image
+  "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
+
+  "remoteUser": "codespace",
+  "overrideCommand": false,
+  "onCreateCommand": [
+    "pip install todo-or-not && todoignore-util -p .gitignore && todoignore-util -u .git"
+  ]
+}
